@@ -57,7 +57,6 @@ This method is fast because it exploits the efficiency of Fourier series and the
 European-Option-Pricing-with-COS-Method/
 │── Pricing of European Call and Put options with the COS method.ipynb  # Main notebook
 │── app.py  # Streamlit web app for option pricing
-│── helper.py  # Helper functions for COS method computation
 │── README.md  # Project documentation
 ```
 
@@ -72,9 +71,7 @@ European-Option-Pricing-with-COS-Method/
    - Users can input stock price, strike price, volatility, risk-free rate, and maturity.
    - Computes and displays option prices.
 
-3. **helper.py**
-   - Contains utility functions for computing the COS method expansion.
-   - Includes characteristic function implementations.
+
 
 ## Usage Guide
 ### Running the Jupyter Notebook
@@ -92,7 +89,7 @@ streamlit run app.py
 ### Example Usage
 Import the COS method and compute an option price:
 ```python
-from helper import cos_method
+
 
 S0 = 100    # Initial stock price
 K = 100     # Strike price
