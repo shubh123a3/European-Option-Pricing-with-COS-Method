@@ -1,5 +1,9 @@
 # European Option Pricing with COS Method
 
+
+https://github.com/user-attachments/assets/26f140a1-1ba0-4b5f-b4b6-e1936eefb2d0
+
+
 ## Overview
 This project implements the **COS Method** for pricing European call and put options efficiently. The **COS Method**, introduced by Fang and Oosterlee (2008), is a spectral expansion approach that significantly improves computational efficiency compared to traditional numerical integration methods.
 
